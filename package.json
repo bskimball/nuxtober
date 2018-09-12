@@ -12,5 +12,6 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+  "nuxt": "^1.0.0"}
 }
