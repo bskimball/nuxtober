@@ -9,7 +9,7 @@ module.exports = {
     }
   },
   build: {
-    publicPath: '/themes/nuxtober/pages/assets/',
+    publicPath: '/assets/',
   },
   generate: {
     dir: 'pages'
