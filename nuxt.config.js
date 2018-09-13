@@ -8,6 +8,9 @@ module.exports = {
       lang: 'en-US'
     }
   },
+  build: {
+    publicPath: '../assets/',
+  },
   generate: {
     dir: 'pages'
   }
