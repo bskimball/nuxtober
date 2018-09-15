@@ -9,7 +9,7 @@ module.exports = {
     }
   },
   build: {
-    publicPath: '/assets/',
+    publicPath: 'themes/myTheme/assets/',
   },
   generate: {
     dir: 'pages'
