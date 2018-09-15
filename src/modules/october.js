@@ -1,4 +1,7 @@
 module.exports = function() {
+  this.nuxt.hook("generate:before", nuxt => {
+    nuxt.distNuxtPath = process.cwd() + "\\assets\\";
+  });
   this.nuxt.hook("generate:page", ctx => {
     let pageTitle = ctx.html.match(/<title data-n-head="true">(.*?)<\/title>/)
     let title = `title = "${pageTitle[1]}"`;
