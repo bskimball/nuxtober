@@ -2,11 +2,9 @@
 
 First change to your theme directory
 
-```javascript
+```
 # clone the repository
 $ git clone https://github.com/bskimball/nuxtober.git myTheme
-// or if you get the ssl error
-$ git clone git://github.com/bskimball/nuxtober.git myTheme
 
 # cd into theme
 $ cd myTheme
