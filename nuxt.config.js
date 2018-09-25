@@ -10,8 +10,5 @@ module.exports = {
   },
   build: {
     publicPath: '/themes/myTheme/assets/',
-  },
-  generate: {
-    dir: 'pages'
   }
 }
